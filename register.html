@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a ecommerce-project for making Sharif experience">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Life+Savers:wght@400;700;800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+    <!-- font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ecommerce project</title>
+</head>
+<body>
+    <!-- nav starts here -->
+<nav>
+        <ul class="nav-upper flex-space-around">
+            
+            <li class="nav_list">
+                <a href="Index.html" class="nav_link">Home</a>
+            </li>
+            <li class="nav_list">
+                <a href="register.html" class="nav_link">Register</a>
+            </li>
+            <li class="nav_list">
+                <a href="login.html" class="nav_link">Login</a>
+            </li>
+            <li class="nav_list">
+                <a href="Index.html" class="nav_link">Logout</a>
+            </li>
+            <li class="nav_list">
+                <a href="contact.html" class="nav_link">Contact</a>
+            </li>
+            <li class="nav_list">
+                <a href="profile.html" class="nav_link">
+                    <img class="profile-icon " src="Images/Sharif-Hossain.png" alt="Profilr icon">
+                </a>
+            </li>
+        </ul>
+        <ul class="nav-lower flex-space-around">
+            <li class="nav_list">
+                <a href="index.html" class=" nav_brand nav_link">Sharif Express </a>      
+            </li>
+
+            <li class="nav_list">
+                <a href="cart.html" class=" nav_brand nav_link">
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    Cart 2 products - $124.40
+                </a>      
+            </li>
+        </ul>
+    </nav>
+<!-- nav starts here -->
+<!-- main starts here -->
+<main>
+    <section class="register">
+        <h2 class="section-title text-center">User Registration</h2>
+        <div class="register-card card">
+            <form action="" class="form">
+                <div class="form-control flex-center">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required  autocomplete="name">
+                </div>
+                <div class="form-control flex-center">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required  autocomplete="email">
+                </div>
+                <div class="form-control flex-center">
+                    <label for="password">password</label>
+                    <input type="password" id="password" required  autocomplete="password">
+                </div>
+                <div class="form-control flex-center">
+                    <label for="name">About me</label>
+                   <textarea name="About" id="About"></textarea>
+                </div>
+                <div class="form-control flex-center form-btn-field">
+                   <button type="submit" class="btn contact-btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+<!-- main ends here -->
+<!-- footer starts here -->
+<footer class="footer flex-space-around">
+    <div class="flex-space-around">
+        <label for="subscribe">Subscribe to Newsletter: </label>
+        <input type="email" id="subscribe" name="subscribe" class="footer_input" placeholder="Your Email Address">
+        <button class="btn btn-subscribe">Subscribe</button>
+    </div>
+    <div>
+        <p>&copy; Copyright 2024 Sharif Express. All rights reserved</p>
+    </div>
+</footer>
+
+<!-- footer ends here -->
+</body>
+</html>
